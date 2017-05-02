@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*display 属性*/
+p.inlien{
+	display: inline;
+}
+
+/* position 属性*/
+#a{
+	position: absolute;
+	left: 100px;
+	top: 150px;
+}
+
+/*定位:相对定位*/
+h2.pos_left{
+	position: relative;
+	left: -20px;
+}
+h2.pos_right{
+	position: relative;
+	left: 20px;
+}
+
+/*定位:绝对定位*/
+h2.pos_ads{
+	position: absolute;
+	left: 200px;
+	right: 250px;
+}
+
+/*定位:固定定位*/
+p.one{
+	position: fixed;
+	left: 5px;
+	right: 5px;
+}
+p.two{
+	position: fixed;
+	left: 30px;
+	right: 5px;
+}
+
+/*img{
+	position: absolute;
+	top: 5%;使用百分比值设置图像的上边缘。
+	bottom: 10%;使用像素值设置图像的底部边缘,也可用百分百
+	/*left: 20%;左边缘可用像素也可用百分比
+	right: 5%;右边缘可用像素也可用百分比
+}*/
+
+
+
+img{
+	float: right;
+}
